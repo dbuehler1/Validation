@@ -9,7 +9,7 @@ $(document).ready(function () {
                 },
             grade:
                 {
-                    required: true
+                    required: true,
                     digits: true
                 }
 
@@ -33,7 +33,7 @@ $(document).ready(function () {
     );
 
     function runMyProgram() {
-
+        event.preventDefault();
         var name = $("#firstName").val();
         var gradeA = $("#grade").val();
         // Change the text of the <p> with ID of "message" to
