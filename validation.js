@@ -10,6 +10,7 @@ $(document).ready(function () {
             grade:
                 {
                     required: true
+                    digits: true
                 }
 
         };
